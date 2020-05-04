@@ -8,7 +8,7 @@ def hello_world():
     return 'Server is working!'
 
 
-@app.route('/data')
+@app.route('/data', methods=['POST'])
 def data():
     return make_response(jsonify({"response": "Successful"}), 200)
 
