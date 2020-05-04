@@ -12,5 +12,6 @@ def hello_world():
 def data():
     return make_response(jsonify({"response": "Successful"}), 200)
 
+
 if __name__ == '__main__':
     app.run()
