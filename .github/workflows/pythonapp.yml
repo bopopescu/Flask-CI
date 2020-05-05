@@ -29,3 +29,4 @@ jobs:
       run: |
         python -m unittest discover tests
         pwd
+        ls
