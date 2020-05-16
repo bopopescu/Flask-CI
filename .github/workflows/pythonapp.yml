@@ -29,5 +29,6 @@ jobs:
       run: |
         pwd
         ls
-        python -m unittest tests/TestDataEndpoint.py
+        python -m unittest discover tests "*.py"
+        
 
