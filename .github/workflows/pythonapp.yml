@@ -28,6 +28,6 @@ jobs:
     - name: Test with pytest
       run: |
         where python
-        python -m unittest discover tests
+        python -m unittest tests/TestDataEndpoint.py
         pwd
         ls
